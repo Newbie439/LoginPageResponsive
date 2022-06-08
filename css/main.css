@@ -1,0 +1,339 @@
+body{
+    background-color: #E5E5E5;
+}
+.signin{
+    background-image: url(/image/background.png);
+    width: 1440px;
+    height: 900px;
+    
+
+}
+
+.signin__brand{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.signin__box {
+    top: 5px;
+    position: relative;
+    width: 539px;
+    height: 741px;
+    left: 783px;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 40px
+}
+
+ h1{
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 44px ; 
+    width: 186px;
+    height: 83px;   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 82px;
+  
+    color: #000000
+ }
+ h2{
+    position: absolute;
+    margin-top: 44px;
+    left: 44px;
+    width: 235px;
+    height: 32px;   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+ }
+    
+ 
+ h4{
+     color: #8D8D8D;
+     position: absolute;
+     width: 86px;
+     height: 40px;
+     margin-top: 50px;
+     left: 410px;
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 13px;
+     line-height: 20px;
+ }
+.signin__btngg{
+    cursor: pointer;
+    position: absolute;
+    width: 298px;
+    height: 55px;
+    left: 44px;
+    top: 203px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    border: #FFFFFF;
+}
+.signin__btngg:hover{
+    background-color: #E9F1FF;
+}
+.signin__btngg__logogg{
+    cursor: pointer;
+    width: 26px;
+    height: 26px;   
+    position: absolute;
+    left: 76px;
+    top: 218px;
+}
+
+.signin_gg{
+    cursor: pointer;
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 123px;
+    top: 218px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #4285F4;
+}
+
+.signin__btnfb {
+    position: absolute;
+    width: 60px;
+    height: 55px;
+    left: 362px;
+    top: 203px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border-radius: 9px;
+    border: #FFFFFF;
+}
+.signin__btnfb:hover{
+    background-color: #E9F1FF;
+}
+.signin__btnap {
+    position: absolute;
+    width: 60px;
+    height: 55px;
+    left: 435px;
+    top: 203px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border-radius: 9px;
+    border: #FFFFFF;
+}
+.signin__btnap:hover{
+    background-color: #E9F1FF;
+}
+.signin__btnfb__logofb {
+    position: absolute;
+    top: 14px ;
+    left: 16px;
+}
+.signin__btnap__logoap {
+    position: absolute;
+    top: 14px ;
+    left: 16px;
+}
+h3{
+    position: absolute;
+    
+    left: 44px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #000000
+}
+input{
+    outline: none;
+    padding-left: 25px;
+    margin-top: 13px;
+    position: absolute;
+    left: 44px;
+    width: 426px;
+    height: 57px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    border: 1px solid #ADADAD;
+}
+input:focus{
+    border: 1px solid #4285F4;
+}
+::placeholder{
+   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #808080;
+}
+.signin__fg{
+    text-decoration: none;
+    position: absolute;
+    width: 108px;
+    height: 20px;
+    left: 387px;
+    top: 544px;
+    margin-top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #4285F4;
+}
+.signin__btnsi{
+    position: absolute;
+    width: 236px;
+    height: 54px;
+    left: 259px;
+    top: 608px;
+    border: #779341;
+    background: #779341;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.signin__btnsi:hover{
+    background-color: #5c752a;
+}
+@media only screen and (max-width: 600px) {
+    /* For mobile */
+.signin{
+    background-image: url(/image/background.png);
+    width: 375px;
+    height: 876px;
+}
+.signin__box{
+    width: 326px;
+    height: 741px;
+    left: 26px;
+    top: 20px;
+}
+
+h1{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 139px;
+    height: 60px;
+    left: 26px;
+    top: 106px;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+h2{
+    width: 142.04px;
+    height: 48px;
+    left: 26px;
+    margin-top: 44px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h4{
+    width: 92.68px;
+    height: 40px;
+    left: 207.32px;
+    margin-top: 47px;
+}
+.signin__btngg{
+    left: 26px;
+    top: 203px;
+    width: 178px;
+    height: 56px;
+}
+.signin__btngg__logogg{
+
+    position:absolute;
+    top: 222px;
+    left: 50px;
+    width: 18px;
+    height: 18px;
+}
+.signin_gg{
+    top: 222px;
+    left: 80px;
+    width: 115px;
+    height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+.signin__btnfb{
+    width: 36px;
+    height: 56px;
+    left: 216px;
+    top: 203px;
+}
+.signin__btnap{
+    width: 36px;
+    height: 56px;
+    left: 264px;
+    top: 203px;
+}
+h3{
+    
+    left: 26px;
+    font-size: 14px;
+    line-height: 21px;
+}
+input{  
+
+    width: 245px;
+    height: 57px;
+    left: 26px;
+}
+.signin__fg{
+    top: 544px;
+    left: 208px;
+    width: 100px;
+    height: 17px;
+    font-size: 11px;
+    line-height: 16px;
+}
+.signin__btnsi{
+    width: 149px;
+    height: 54px;
+    top: 606px;
+    left: 150px;
+}
+.signin__btnfb__logofb{
+    width: 18px;
+    height: 18px;
+    top: 19.41px;
+    left: 10.13px;
+}
+.signin__btnap__logoap{
+    width: 18px;
+    height: 18px;
+    top: 19.41px;
+    left: 10.13px;
+}
+}
